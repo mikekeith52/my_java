@@ -5,7 +5,7 @@ public class Student {
     double GPA;
     String declaredMajor;
 
-    // create an instance (non-static classes have instances)
+    // constructor (non-static classes have instances and the constructor creates those)
     public Student (String firstName, String lastName,
                     int expectedGradYear, double GPA,
                     String declaredMajor) {
